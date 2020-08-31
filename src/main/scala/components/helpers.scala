@@ -4,6 +4,7 @@ package dinocpu.components
 
 import chisel3._
 import chisel3.util._
+import chisel3.iotesters.{ChiselFlatSpec, Driver, PeekPokeTester}
 
 /**
  * A simple adder which takes two inputs and returns the sum
